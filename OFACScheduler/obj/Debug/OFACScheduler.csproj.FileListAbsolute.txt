@@ -1,0 +1,6 @@
+E:\Projects\IRSSync\OFACScheduler\bin\Debug\OFACScheduler.exe.config
+E:\Projects\IRSSync\OFACScheduler\bin\Debug\OFACScheduler.exe
+E:\Projects\IRSSync\OFACScheduler\bin\Debug\OFACScheduler.pdb
+E:\Projects\IRSSync\OFACScheduler\obj\Debug\OFACScheduler.csprojResolveAssemblyReference.cache
+E:\Projects\IRSSync\OFACScheduler\obj\Debug\OFACScheduler.exe
+E:\Projects\IRSSync\OFACScheduler\obj\Debug\OFACScheduler.pdb

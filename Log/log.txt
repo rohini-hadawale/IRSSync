@@ -1,0 +1,10 @@
+
+ OFAC Sync : DateTime: 09-10-2014 15:21:51, Status: 1
+
+ IRS Sync : DateTime: 09-10-2014 15:40:02, Status: 1
+
+ PUB78 Sync : DateTime: 09-10-2014 15:42:16, Status: 1
+
+ PUB78 Sync : DateTime: 09-10-2014 15:45:41, Status: 1
+
+ OFAC Sync : DateTime: 09-10-2014 15:53:53, Status: 1

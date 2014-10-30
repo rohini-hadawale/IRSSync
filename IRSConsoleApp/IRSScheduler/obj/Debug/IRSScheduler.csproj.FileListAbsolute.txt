@@ -1,0 +1,5 @@
+E:\Projects\IRSSync\IRSConsoleApp\IRSScheduler\bin\Debug\IRSScheduler.exe.config
+E:\Projects\IRSSync\IRSConsoleApp\IRSScheduler\bin\Debug\IRSScheduler.exe
+E:\Projects\IRSSync\IRSConsoleApp\IRSScheduler\bin\Debug\IRSScheduler.pdb
+E:\Projects\IRSSync\IRSConsoleApp\IRSScheduler\obj\Debug\IRSScheduler.exe
+E:\Projects\IRSSync\IRSConsoleApp\IRSScheduler\obj\Debug\IRSScheduler.pdb

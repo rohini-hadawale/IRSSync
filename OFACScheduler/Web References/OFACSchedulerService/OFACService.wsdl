@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StartOFACScheduler">
+        <s:complexType />
+      </s:element>
+      <s:element name="StartOFACSchedulerResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="StartIRScheduler">
+        <s:complexType />
+      </s:element>
+      <s:element name="StartIRSchedulerResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="StartPubcheduler">
+        <s:complexType />
+      </s:element>
+      <s:element name="StartPubchedulerResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="StartOFACSchedulerSoapIn">
+    <wsdl:part name="parameters" element="tns:StartOFACScheduler" />
+  </wsdl:message>
+  <wsdl:message name="StartOFACSchedulerSoapOut">
+    <wsdl:part name="parameters" element="tns:StartOFACSchedulerResponse" />
+  </wsdl:message>
+  <wsdl:message name="StartIRSchedulerSoapIn">
+    <wsdl:part name="parameters" element="tns:StartIRScheduler" />
+  </wsdl:message>
+  <wsdl:message name="StartIRSchedulerSoapOut">
+    <wsdl:part name="parameters" element="tns:StartIRSchedulerResponse" />
+  </wsdl:message>
+  <wsdl:message name="StartPubchedulerSoapIn">
+    <wsdl:part name="parameters" element="tns:StartPubcheduler" />
+  </wsdl:message>
+  <wsdl:message name="StartPubchedulerSoapOut">
+    <wsdl:part name="parameters" element="tns:StartPubchedulerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="OFACServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StartOFACScheduler">
+      <wsdl:input message="tns:StartOFACSchedulerSoapIn" />
+      <wsdl:output message="tns:StartOFACSchedulerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StartIRScheduler">
+      <wsdl:input message="tns:StartIRSchedulerSoapIn" />
+      <wsdl:output message="tns:StartIRSchedulerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StartPubcheduler">
+      <wsdl:input message="tns:StartPubchedulerSoapIn" />
+      <wsdl:output message="tns:StartPubchedulerSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="OFACServiceSoap" type="tns:OFACServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartOFACScheduler">
+      <soap:operation soapAction="http://tempuri.org/StartOFACScheduler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartIRScheduler">
+      <soap:operation soapAction="http://tempuri.org/StartIRScheduler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartPubcheduler">
+      <soap:operation soapAction="http://tempuri.org/StartPubcheduler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OFACServiceSoap12" type="tns:OFACServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartOFACScheduler">
+      <soap12:operation soapAction="http://tempuri.org/StartOFACScheduler" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartIRScheduler">
+      <soap12:operation soapAction="http://tempuri.org/StartIRScheduler" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartPubcheduler">
+      <soap12:operation soapAction="http://tempuri.org/StartPubcheduler" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OFACService">
+    <wsdl:port name="OFACServiceSoap" binding="tns:OFACServiceSoap">
+      <soap:address location="http://localhost/irsSync/OFACService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OFACServiceSoap12" binding="tns:OFACServiceSoap12">
+      <soap12:address location="http://localhost/irsSync/OFACService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

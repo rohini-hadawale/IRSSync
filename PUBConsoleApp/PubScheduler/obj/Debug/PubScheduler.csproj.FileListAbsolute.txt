@@ -1,0 +1,5 @@
+E:\Projects\IRSSync\PUBConsoleApp\PubScheduler\bin\Debug\PubScheduler.exe.config
+E:\Projects\IRSSync\PUBConsoleApp\PubScheduler\bin\Debug\PubScheduler.exe
+E:\Projects\IRSSync\PUBConsoleApp\PubScheduler\bin\Debug\PubScheduler.pdb
+E:\Projects\IRSSync\PUBConsoleApp\PubScheduler\obj\Debug\PubScheduler.exe
+E:\Projects\IRSSync\PUBConsoleApp\PubScheduler\obj\Debug\PubScheduler.pdb

@@ -1,0 +1,103 @@
+﻿
+.tbl {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #DDDDDD;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    background-color: white;
+}
+
+    .tbl td {
+        border: 0px none;
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        padding: 3px;
+        text-align: left;
+    }
+
+    .tbl th {
+        border: 0px solid #DDDDDD;
+        padding: 3px;
+        text-align: left;
+        background-color: #AECC36;
+        border: 0px none;
+        border-left: 1px solid #DDDDDD;
+        border-right: 1px solid #DDDDDD;
+        color: #FFFFFF;
+    }
+
+    .tbl tr:nth-child(odd) {
+        background: #E9EDDA;
+    }
+
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsLink, .RadTabStripTop_Office2007 .rtsLevel1 .rtsOut, .RadTabStripBottom_Office2007 .rtsLevel1 .rtsLink, .RadTabStripBottom_Office2007 .rtsLevel1 .rtsOut, .RadTabStripTop_Office2007 .rtsLevel1, .RadTabStripBottom_Office2007 .rtsLevel1 {
+    background-image: none !important;
+    font-weight: bold;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    padding-top: 2px;
+    color: #665D5D;
+}
+
+.RadTabStrip_Office2007 .rtsLevel1 .rtsLink:hover, .RadTabStrip_Office2007 .rtsLevel1 .rtsSelected, .RadTabStrip_Office2007 .rtsLevel1 .rtsSelected:hover {
+    background-color: #FFFFFF;
+    color: black !important;
+    border: 2px solid #B5B3B3;
+    border-bottom: 0px none;
+}
+
+.RadTabStrip_Office2007 .rtsLevel1 {
+    background-color: #21AFE5 !important;
+}
+
+.heading {
+    background-color: #21AFE5;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 25px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background-image: none !important;
+}
+
+.heading_border {
+    margin-bottom: 5px;
+    border-bottom: 2px #21AFE5 solid;
+    margin-left: 8px;
+}
+
+.RadForm_Default.rfdButton a.rfdSkinnedButton, .RadForm_Default.rfdButton input.rfdDecorated[type="button"], .RadForm_Default.rfdButton input.rfdDecorated[type="reset"], .RadForm_Default.rfdButton input.rfdDecorated[type="submit"], .RadForm_Default.rfdButton .rfdSkinnedButton button {
+    color: #000;
+    background-image: none !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+}
+
+.RadForm.rfdTextbox .rfdSkinnedButton input, .RadForm.rfdTextbox .rfdSkinnedButton button, .RadForm.rfdTextbox .RadComboBox input, .RadForm.rfdTextbox .RadComboBox input[type="text"], .RadForm.rfdTextbox .rfdInputDisabled {
+    border: 0px none;
+    background-color: #AECC36 !important;
+    color: white !important;
+}
+
+.rfdButton input.rfdDecorated[type="button"], .rfdButton input.rfdDecorated[type="reset"], .rfdButton input.rfdDecorated[type="submit"], .rfdButton .rfdSkinnedButton button, .rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover * {
+    height: 26px !important;
+}
+
+.rfdButton a.rfdSkinnedButton, .rfdButton a.rfdInputDisabled.rfdSkinnedButton:hover {
+    padding: 0 0 0 0 !important;
+}
+
+    .rfdButton a.rfdSkinnedButton, .rfdButton a.rfdSkinnedButton * {
+        height: 26px !important;
+    }
+
+.rfdSkinnedButton.rfdInputDisabled, *|html.rfdTextarea textarea[disabled], *|html.rfdTextbox input[type="text"][disabled], *|html.rfdTextbox input[type="password"][disabled], .rfdCheckboxChecked.rfdInputDisabled, .rfdCheckboxUnchecked.rfdInputDisabled, .rfdRadioChecked.rfdInputDisabled, .rfdRadioUnchecked.rfdInputDisabled, .rfdSelectDisabled {
+    opacity: 1 !important;
+}
